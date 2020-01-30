@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Employees Rest API Suite]">
+  <test thread-count="5" name="EmployeesRestApiTest(failed)">
+    <classes>
+      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
+        <methods>
+          <include name="postEmployeeRecord"/>
+          <include name="setUp"/>
+          <include name="verifyStatusCode"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+    </classes>
+  </test> <!-- EmployeesRestApiTest(failed) -->
+</suite> <!-- Failed suite [Employees Rest API Suite] -->
